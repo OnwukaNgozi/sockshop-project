@@ -8,6 +8,6 @@ spec:
   issuerRef: 
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: ngozionwuka.me
+  commonName: sockshop.ngozionwuka.me
   dnsNames:
-  - ngozionwuka.me
+  - sockshop.ngozionwuka.me

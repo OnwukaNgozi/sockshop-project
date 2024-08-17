@@ -25,6 +25,7 @@ Here, after successful deployment.
 
 
 Deploy the microservices(file.yaml) using kubectl create -f file.yaml
+
 Here ↓
 
 ![Port-forwarding](./images/port-forwarding.png)
@@ -38,10 +39,7 @@ To view the front-end, get the port number and port-forward then access it via l
 Install nginx-ingress and apply the manifest.
 kubectl apply -f ingress.yaml -n sock-shop
 
-Install ingress controller, copy the load balanacer external IP address and map it to your hostname on your DNS provider website. 
-
-
-![load balancer](./images/load%20balancer.png)
+Install ingress controller, copy the load balanacer external IP address(using kubectl get svc -A) and map it to your hostname on your DNS provider website. 
 
 
 ![DNS mapped](./images/2nd%20image.png)

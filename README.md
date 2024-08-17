@@ -8,16 +8,18 @@ Core DevOps practices will be employed to automate the deployment of SockShop, t
 
 
 # Prerequisite:
-1.  VScode and/or gitbash
-2.  AWS account
-3.  Install minikube and kubectl.
-4.  Domain name
-5.  Terraform installed on your local machine
-6.  Choco and helm installed on your powershell
+1.  AWS account.
+2.  VScode and/or gitbash with AWS CLI configured.
+3.  Installed minikube and kubectl.
+4.  Domain name.
+5.  Terraform installed on your local machine.
+6.  Choco and helm installed on your powershell.
 
 
-Using terraform, 
+Using terraform, deploy the EKS through
+"terraform init → terraform plan → terraform apply -auto-approve."
 
+Here, after successful deployment.
 
 ![Deployed Resources](./images/sucessfully%20deployed.jpeg)
 

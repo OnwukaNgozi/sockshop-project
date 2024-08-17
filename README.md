@@ -14,7 +14,15 @@ Using terraform,
 
 
 ![Deployed Resources](./images/sucessfully%20deployed.jpeg)
+
+
 ![Port-forwarding](./images/port-forwarding.png)
+
+
 ![localhost](./images/1st%20image.png)
+
+
 ![load balancer](./images/load%20balancer.png)
+
+
 ![DNS mapped](./images/2nd%20image.png)
